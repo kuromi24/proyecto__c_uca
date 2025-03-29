@@ -19,7 +19,7 @@ int main () {
         checkDefects (& piece ) ;
         measureWeightAndDims (& piece ) ;
         setStationTimes (& piece ) ;
-        classifyPiece (& piece , & dest ) ;
+        classifyPiece ( piece , & dest ) ;
         formatData (& piece , buffer , 200) ;
         displayAndLog ( buffer ) ;
         updateStats (& piece , & dest ) ;
