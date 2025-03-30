@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "common.h"
-#inculde "piece_gen.h"
+#include "piece_gen.h"
 //Funcion auxiliar para validar dimensiones  (largo>ancho>alto)
 
 bool validateDimensions(float dimensions[3]){
