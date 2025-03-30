@@ -24,7 +24,7 @@ int main () {
         displayAndLog ( buffer ) ;
         updateStats (& piece , & dest ) ;
     }
-    printStats () ;
+    //printStats () ;
  return 0;
 }
 
